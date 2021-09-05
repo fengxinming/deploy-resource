@@ -1,0 +1,32 @@
+{
+  "name": "deploy-resource",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy-resource": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "ajv-keywords": "^3.5.1",
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "debug": "^4.1.1",
+    "execa": "^4.0.2",
+    "ssh2": "^0.8.9"
+  }
+}
